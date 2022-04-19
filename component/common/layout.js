@@ -15,6 +15,11 @@ export default function MyLayout({ number, children }) {
                             <a>Home</a>
                         </Link>
                     </Menu.Item>
+                    <Menu.Item key="2">
+                        <Link href="/race">
+                            <a>Crypto Race Graph</a>
+                        </Link>
+                    </Menu.Item>
                 </Menu>
             </Header>
             <Content style={{ padding: '0 50px' }}>

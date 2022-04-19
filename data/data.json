@@ -1,0 +1,392 @@
+[
+    {
+        "Date": "2022-02-13",
+        "eth": 4570.478027,
+        "btc": 52474.10547,
+        "btc volumn": 52054723579,
+        "eth volumn": 893249984,
+        "positive_rate": 0.3,
+        "negative_rate": 0.5,
+        "neutral_rate": 0.2
+    },
+    {
+        "Date": "2022-02-14",
+        "eth": 4213.910645,
+        "btc": 56113.65234,
+        "btc volumn": 63495496918,
+        "eth volumn": 885985984,
+        "positive_rate": 0.3,
+        "negative_rate": 0.5,
+        "neutral_rate": 0.2
+    },
+    {
+        "Date": "2022-02-15",
+        "eth": 4287.802246,
+        "btc": 57505.22656,
+        "btc volumn": 68145460026,
+        "eth volumn": 842300992,
+        "positive_rate": 0.3,
+        "negative_rate": 0.5,
+        "neutral_rate": 0.2
+    },
+    {
+        "Date": "2022-02-16",
+        "eth": 3995.729492,
+        "btc": 58330.57031,
+        "btc volumn": 51897585191,
+        "eth volumn": 1613479936,
+        "positive_rate": 0.3,
+        "negative_rate": 0.5,
+        "neutral_rate": 0.2
+    },
+    {
+        "Date": "2022-02-17",
+        "eth": 4298.350586,
+        "btc": 57533.39063,
+        "btc volumn": 92052420332,
+        "eth volumn": 1041889984,
+        "positive_rate": 0.3,
+        "negative_rate": 0.5,
+        "neutral_rate": 0.2
+    },
+    {
+        "Date": "2022-02-18",
+        "eth": 4412.195313,
+        "btc": 54204.92969,
+        "btc volumn": 106102492824,
+        "eth volumn": 1069680000,
+        "positive_rate": 0.3,
+        "negative_rate": 0.5,
+        "neutral_rate": 0.2
+    },
+    {
+        "Date": "2022-02-19",
+        "eth": 4266.509277,
+        "btc": 51290.13672,
+        "btc volumn": 63695521388,
+        "eth volumn": 722665984,
+        "positive_rate": 0.3,
+        "negative_rate": 0.5,
+        "neutral_rate": 0.2
+    },
+    {
+        "Date": "2022-02-20",
+        "eth": 4089.68042,
+        "btc": 51948.96875,
+        "btc volumn": 54506565949,
+        "eth volumn": 797254016,
+        "positive_rate": 0.3,
+        "negative_rate": 0.5,
+        "neutral_rate": 0.2
+    },
+    {
+        "Date": "2022-02-21",
+        "eth": 4340.036133,
+        "btc": 48370.78516,
+        "btc volumn": 350967941479,
+        "eth volumn": 621732992,
+        "positive_rate": 0.3,
+        "negative_rate": 0.5,
+        "neutral_rate": 0.2
+    },
+    {
+        "Date": "2022-02-22",
+        "eth": 4271.394531,
+        "btc": 48253.26953,
+        "btc volumn": 45910946382,
+        "eth volumn": 649638976,
+        "positive_rate": 0.3,
+        "negative_rate": 0.5,
+        "neutral_rate": 0.2
+    },
+    {
+        "Date": "2022-02-23",
+        "eth": 4522.208984,
+        "btc": 46716.42969,
+        "btc volumn": 53443887451,
+        "eth volumn": 1181529984,
+        "positive_rate": 0.3,
+        "negative_rate": 0.5,
+        "neutral_rate": 0.2
+    },
+    {
+        "Date": "2022-02-24",
+        "eth": 4042.999023,
+        "btc": 49784.01563,
+        "btc volumn": 53891300112,
+        "eth volumn": 807027008,
+        "positive_rate": 0.3,
+        "negative_rate": 0.5,
+        "neutral_rate": 0.2
+    },
+    {
+        "Date": "2022-02-25",
+        "eth": 4101.648926,
+        "btc": 50127.51172,
+        "btc volumn": 47530897720,
+        "eth volumn": 949912000,
+        "positive_rate": 0.3,
+        "negative_rate": 0.5,
+        "neutral_rate": 0.2
+    },
+    {
+        "Date": "2022-02-26",
+        "eth": 4296.946777,
+        "btc": 52535.13672,
+        "btc volumn": 53220811975,
+        "eth volumn": 800819008,
+        "positive_rate": 0.3,
+        "negative_rate": 0.5,
+        "neutral_rate": 0.2
+    },
+    {
+        "Date": "2022-02-27",
+        "eth": 4447.768066,
+        "btc": 51735.08984,
+        "btc volumn": 52343816680,
+        "eth volumn": 1845680000,
+        "positive_rate": 0.3,
+        "negative_rate": 0.5,
+        "neutral_rate": 0.2
+    },
+    {
+        "Date": "2022-02-28",
+        "eth": 4623.679688,
+        "btc": 49396.42969,
+        "btc volumn": 48625928883,
+        "eth volumn": 2292829952,
+        "positive_rate": 0.3,
+        "negative_rate": 0.5,
+        "neutral_rate": 0.2
+    },
+    {
+        "Date": "2022-03-01",
+        "eth": 4586.333008,
+        "btc": 49147.21875,
+        "btc volumn": 34363564661,
+        "eth volumn": 1422080000,
+        "positive_rate": 0.3,
+        "negative_rate": 0.5,
+        "neutral_rate": 0.2
+    },
+    {
+        "Date": "2022-03-02",
+        "eth": 4514.355957,
+        "btc": 51384.36719,
+        "btc volumn": 43137459378,
+        "eth volumn": 1197779968,
+        "positive_rate": 0.3,
+        "negative_rate": 0.5,
+        "neutral_rate": 0.2
+    },
+    {
+        "Date": "2022-03-03",
+        "eth": 4227.762207,
+        "btc": 52314.07031,
+        "btc volumn": 48597428048,
+        "eth volumn": 1396480000,
+        "positive_rate": 0.3,
+        "negative_rate": 0.5,
+        "neutral_rate": 0.2
+    },
+    {
+        "Date": "2022-03-04",
+        "eth": 4119.628906,
+        "btc": 54824.11719,
+        "btc volumn": 50912227385,
+        "eth volumn": 1346499968,
+        "positive_rate": 0.3,
+        "negative_rate": 0.5,
+        "neutral_rate": 0.2
+    },
+    {
+        "Date": "2022-03-05",
+        "eth": 4199,
+        "btc": 57258.25391,
+        "btc volumn": 57295577614,
+        "eth volumn": 2675940096,
+        "positive_rate": 0.3,
+        "negative_rate": 0.5,
+        "neutral_rate": 0.2
+    },
+    {
+        "Date": "2022-03-06",
+        "eth": 4358.586914,
+        "btc": 58091.0625,
+        "btc volumn": 56772343595,
+        "eth volumn": 1903040000,
+        "positive_rate": 0.3,
+        "negative_rate": 0.5,
+        "neutral_rate": 0.2
+    },
+    {
+        "Date": "2022-03-07",
+        "eth": 4311.674316,
+        "btc": 57996.62109,
+        "btc volumn": 55689944702,
+        "eth volumn": 1247879936,
+        "positive_rate": 0.3,
+        "negative_rate": 0.5,
+        "neutral_rate": 0.2
+    },
+    {
+        "Date": "2022-03-08",
+        "eth": 4433.024902,
+        "btc": 61683.86328,
+        "btc volumn": 60669829814,
+        "eth volumn": 943649984,
+        "positive_rate": 0.3,
+        "negative_rate": 0.5,
+        "neutral_rate": 0.2
+    },
+    {
+        "Date": "2022-03-09",
+        "eth": 4113.588379,
+        "btc": 61597.91797,
+        "btc volumn": 43901225564,
+        "eth volumn": 990556992,
+        "positive_rate": 0.3,
+        "negative_rate": 0.5,
+        "neutral_rate": 0.2
+    },
+    {
+        "Date": "2022-03-10",
+        "eth": 3909.667725,
+        "btc": 60540.99219,
+        "btc volumn": 66419369890,
+        "eth volumn": 1005550016,
+        "positive_rate": 0.3,
+        "negative_rate": 0.5,
+        "neutral_rate": 0.2
+    },
+    {
+        "Date": "2022-03-11",
+        "eth": 4084.811279,
+        "btc": 56833.17969,
+        "btc volumn": 59749798599,
+        "eth volumn": 1216720000,
+        "positive_rate": 0.3,
+        "negative_rate": 0.5,
+        "neutral_rate": 0.2
+    },
+    {
+        "Date": "2022-03-12",
+        "eth": 4136.359863,
+        "btc": 58969.81641,
+        "btc volumn": 60258313191,
+        "eth volumn": 1998259968,
+        "positive_rate": 0.3,
+        "negative_rate": 0.5,
+        "neutral_rate": 0.2
+    },
+    {
+        "Date": "2022-03-13",
+        "eth": 3782.822754,
+        "btc": 60116.25,
+        "btc volumn": 55746041000,
+        "eth volumn": 2129570048,
+        "positive_rate": 0.3,
+        "negative_rate": 0.5,
+        "neutral_rate": 0.2
+    },
+    {
+        "Date": "2022-03-14",
+        "eth": 3862.251465,
+        "btc": 59498.375,
+        "btc volumn": 49063873786,
+        "eth volumn": 2336379904,
+        "positive_rate": 0.3,
+        "negative_rate": 0.5,
+        "neutral_rate": 0.2
+    },
+    {
+        "Date": "2022-03-15",
+        "eth": 4020.415039,
+        "btc": 60031.28516,
+        "btc volumn": 50361731222,
+        "eth volumn": 2003849984,
+        "positive_rate": 0.3,
+        "negative_rate": 0.5,
+        "neutral_rate": 0.2
+    },
+    {
+        "Date": "2022-03-16",
+        "eth": 3959.012451,
+        "btc": 58767.89844,
+        "btc volumn": 51943414539,
+        "eth volumn": 1197779968,
+        "positive_rate": 0.3,
+        "negative_rate": 0.5,
+        "neutral_rate": 0.2
+    },
+    {
+        "Date": "2022-03-17",
+        "eth": 3880.291504,
+        "btc": 58471.48047,
+        "btc volumn": 56521454974,
+        "eth volumn": 1396480000,
+        "positive_rate": 0.3,
+        "negative_rate": 0.5,
+        "neutral_rate": 0.2
+    },
+    {
+        "Date": "2022-03-18",
+        "eth": 3960.872314,
+        "btc": 55985.44141,
+        "btc volumn": 56435023914,
+        "eth volumn": 1346499968,
+        "positive_rate": 0.3,
+        "negative_rate": 0.5,
+        "neutral_rate": 0.2
+    },
+    {
+        "Date": "2022-03-19",
+        "eth": 3923.695801,
+        "btc": 57262.38281,
+        "btc volumn": 70567223787,
+        "eth volumn": 2675940096,
+        "positive_rate": 0.3,
+        "negative_rate": 0.5,
+        "neutral_rate": 0.2
+    },
+    {
+        "Date": "2022-03-20",
+        "eth": 3938.463867,
+        "btc": 58767.89844,
+        "btc volumn": 67999812841,
+        "eth volumn": 1903040000,
+        "positive_rate": 0.3,
+        "negative_rate": 0.5,
+        "neutral_rate": 0.2
+    },
+    {
+        "Date": "2022-03-21",
+        "eth": 4018.695801,
+        "btc": 58471.48047,
+        "btc volumn": 56652197978,
+        "eth volumn": 1247879936,
+        "positive_rate": 0.3,
+        "negative_rate": 0.5,
+        "neutral_rate": 0.2
+    },
+    {
+        "Date": "2022-03-22",
+        "eth": 3981.96167,
+        "btc": 55985.44141,
+        "btc volumn": 57295577614,
+        "eth volumn": 943649984,
+        "positive_rate": 0.3,
+        "negative_rate": 0.5,
+        "neutral_rate": 0.2
+    },
+    {
+        "Date": "2022-03-23",
+        "eth": 4111.345215,
+        "btc": 57262.38281,
+        "btc volumn": 56772343595,
+        "eth volumn": 990556992,
+        "positive_rate": 0.3,
+        "negative_rate": 0.5,
+        "neutral_rate": 0.2
+    }
+]

@@ -64,21 +64,21 @@ export default function Home(Props) {
         type: 'bar',
         stack: 'Sentiments',
         yAxisIndex: 1,
-        data: data.map(a => a.positive_rate * 100)
+        data: data.map(a => a.positive_rate)
       },
       {
         name: 'Neutral Sentiments',
         type: 'bar',
         stack: 'Sentiments',
         yAxisIndex: 1,
-        data: data.map(a => a.neutral_rate * 100)
+        data: data.map(a => a.neutral_rate)
       },
       {
         name: 'Negative Sentiments',
         type: 'bar',
         stack: 'Sentiments',
         yAxisIndex: 1,
-        data: data.map(a => a.negative_rate * 100)
+        data: data.map(a => a.negative_rate)
       }, {
         name: 'ADA',
         type: 'line',

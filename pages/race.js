@@ -6,19 +6,22 @@ let volumn = require('../data/crypto_volumn.json');
 
 const getData = (object) => {
     const data = [];
-    data.push(object.btc);
-    data.push(object.eth);
+    data.push(object.ada_volume);
+    data.push(object.avax_volume);
+    data.push(object.bnb_volume);
+    data.push(object.btc_volume);
+    data.push(object.eth_volume);
+    data.push(object.luna_volume);
+    data.push(object.sol_volume);
+    data.push(object.usdc_volume);
+    data.push(object.usdt_volume);
+    data.push(object.xrp_volume);
     return data;
 }
 
-const cryptoColors = {
-    BTC: '#00008b',
-    ETH: '#f00',
-};
-
 export default function Race(Props) {
     let data = getData(volumn[0]);
-    let curMonth = volumn[0].Date;
+    let curMonth = volumn[0].date;
     const echartRef = useRef(null);
     // const echartInstance = echartRef.current;
     let option = {
@@ -40,7 +43,7 @@ export default function Race(Props) {
             type: 'category',
             inverse: true,
             max: 10,
-            data: ['BTC', 'ETH'],
+            data: ['ADA', 'AVAX', 'BNB', 'BTC', 'ETH', 'LUNA', 'SOL', 'USDC', 'USDT', 'XRP'],
             animationDuration: 300,
             animationDurationUpdate: 300
         },
@@ -62,7 +65,7 @@ export default function Race(Props) {
             },
         ],
         animationDuration: 0,
-        animationDurationUpdate: 2000,
+        animationDurationUpdate: 3000,
         animationEasing: 'linear',
         animationEasingUpdate: 'linear',
         graphic: {
@@ -83,46 +86,44 @@ export default function Race(Props) {
     };
     let i = 0;
     function run() {
-        data = getData(volumn[i]);
-        curMonth = volumn[i].Date;
-        i = (i + 1) % volumn.length;
-        console.log(i)
-        console.log(data)
-        console.log(curMonth)
-        option.series = [
-            {
-                realtimeSort: true,
-                data: data,
-                type: 'bar',
-                encode: {
-                    x: 0,
-                    y: 3
-                },
-                label: {
-                    show: true,
-                    precision: 1,
-                    position: 'right',
-                    valueAnimation: true,
-                }
-            },
-        ];
-        option.graphic = {
-            elements: [
+        if (i < volumn.length) {
+            data = getData(volumn[i]);
+            curMonth = volumn[i].date;
+            option.series = [
                 {
-                    type: 'text',
-                    right: 160,
-                    bottom: 60,
-                    style: {
-                        text: curMonth,
-                        font: 'bolder 80px monospace',
-                        fill: 'rgba(100, 100, 100, 0.25)'
+                    realtimeSort: true,
+                    data: data,
+                    type: 'bar',
+                    encode: {
+                        x: 0,
+                        y: 3
                     },
-                    z: 100
-                }
-            ]
+                    label: {
+                        show: true,
+                        precision: 1,
+                        position: 'right',
+                        valueAnimation: true,
+                    }
+                },
+            ];
+            option.graphic = {
+                elements: [
+                    {
+                        type: 'text',
+                        right: 160,
+                        bottom: 60,
+                        style: {
+                            text: curMonth,
+                            font: 'bolder 80px monospace',
+                            fill: 'rgba(100, 100, 100, 0.25)'
+                        },
+                        z: 100
+                    }
+                ]
+            }
+            echartRef.current?.getEchartsInstance().setOption(option);
+            i++;
         }
-        echartRef.current?.getEchartsInstance().setOption(option);
-
     };
     useEffect(() => {
         console.log(echartRef.current)

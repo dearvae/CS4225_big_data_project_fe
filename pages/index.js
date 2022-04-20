@@ -7,8 +7,6 @@ let data = require('../data/data.json');
 
 export default function Home(Props) {
 
-  console.log(data);
-
   const options = {
     tooltip: {
       trigger: 'axis',
@@ -25,7 +23,7 @@ export default function Home(Props) {
       }
     },
     legend: {
-      data: ['BTC', 'ETH']
+      data: ['ADA', 'AVAX', 'BNB', 'BTC', 'ETH', 'LUNA', 'SOL', 'USDC', 'USDT', 'XRP']
     },
     grid: {
       bottom: 90
@@ -39,7 +37,7 @@ export default function Home(Props) {
       }
     ],
     xAxis: {
-      data: data.map(a => a.Date)
+      data: data.map(a => a.date)
     },
     yAxis: [
       {
@@ -81,6 +79,21 @@ export default function Home(Props) {
         stack: 'Sentiments',
         yAxisIndex: 1,
         data: data.map(a => a.negative_rate * 100)
+      }, {
+        name: 'ADA',
+        type: 'line',
+        yAxisIndex: 0,
+        data: data.map(a => a.ada)
+      }, {
+        name: 'AVAX',
+        type: 'line',
+        yAxisIndex: 0,
+        data: data.map(a => a.avax)
+      }, {
+        name: 'BNB',
+        type: 'line',
+        yAxisIndex: 0,
+        data: data.map(a => a.bnb)
       },
       {
         name: 'BTC',
@@ -93,6 +106,31 @@ export default function Home(Props) {
         type: 'line',
         yAxisIndex: 0,
         data: data.map(a => a.eth)
+      }, {
+        name: 'LUNA',
+        type: 'line',
+        yAxisIndex: 0,
+        data: data.map(a => a.luna)
+      }, {
+        name: 'SOL',
+        type: 'line',
+        yAxisIndex: 0,
+        data: data.map(a => a.sol)
+      }, {
+        name: 'USDC',
+        type: 'line',
+        yAxisIndex: 0,
+        data: data.map(a => a.usdc)
+      }, {
+        name: 'USDT',
+        type: 'line',
+        yAxisIndex: 0,
+        data: data.map(a => a.usdt)
+      }, {
+        name: 'XRP',
+        type: 'line',
+        yAxisIndex: 0,
+        data: data.map(a => a.xrp)
       }
     ]
   };

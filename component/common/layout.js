@@ -17,7 +17,12 @@ export default function MyLayout({ number, children }) {
                     </Menu.Item>
                     <Menu.Item key="2">
                         <Link href="/race">
-                            <a>Crypto Race Graph</a>
+                            <a>Crypto Volumn Race Graph</a>
+                        </Link>
+                    </Menu.Item>
+                    <Menu.Item key="3">
+                        <Link href="/pricerace">
+                            <a>Crypto Price Race Graph</a>
                         </Link>
                     </Menu.Item>
                 </Menu>

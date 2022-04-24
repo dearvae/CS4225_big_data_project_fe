@@ -3,9 +3,9 @@ import ReactECharts from 'echarts-for-react';
 
 // let MyLayout = require('../component/common/layout');
 // let ReactECharts = require('echarts-for-react');
-let data = require('../data/predictionrf.json');
+let data = require('../data/dualpredict.json');
 
-export default function PredictionRF(Props) {
+export default function PredictionLR(Props) {
 
   const options = {
     title: {
@@ -30,7 +30,7 @@ export default function PredictionRF(Props) {
     },
     xAxis: {
       type: 'category',
-      // boundaryGap: false,
+      boundaryGap: false,
       data: data.Date
     },
     yAxis: {
@@ -62,7 +62,7 @@ export default function PredictionRF(Props) {
     </div>
   </>
 }
-PredictionRF.getLayout = (prediction) => (
+PredictionLR.getLayout = (prediction) => (
   <MyLayout number='4'>
     {prediction}
   </MyLayout>

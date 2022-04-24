@@ -30,10 +30,11 @@ export default function PredictionRF(Props) {
     },
     xAxis: {
       type: 'category',
-      boundaryGap: false,
+      // boundaryGap: false,
       data: data.Date
     },
     yAxis: {
+      scale: true,
       type: 'value',
       name: 'Price',
       axisLabel: {

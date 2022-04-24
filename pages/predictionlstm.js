@@ -34,6 +34,7 @@ export default function PredictionLSTM(Props) {
       data: data.Date
     },
     yAxis: {
+      scale: true,
       type: 'value',
       name: 'Price',
       axisLabel: {

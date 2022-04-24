@@ -26,8 +26,18 @@ export default function MyLayout({ number, children }) {
                         </Link>
                     </Menu.Item>
                     <Menu.Item key="4">
-                        <Link href="/prediction">
-                            <a>Price Prediction vs Actual (BTC) </a>
+                        <Link href="/predictionlr">
+                            <a>LR Price Prediction vs Actual (BTC) </a>
+                        </Link>
+                    </Menu.Item>
+                    <Menu.Item key="5">
+                        <Link href="/predictionrf">
+                            <a>RF Price Prediction vs Actual (BTC) </a>
+                        </Link>
+                    </Menu.Item>
+                    <Menu.Item key="6">
+                        <Link href="/predictionlstm">
+                            <a>LSTM Price Prediction vs Actual (BTC) </a>
                         </Link>
                     </Menu.Item>
                 </Menu>

@@ -3,9 +3,9 @@ import ReactECharts from 'echarts-for-react';
 
 // let MyLayout = require('../component/common/layout');
 // let ReactECharts = require('echarts-for-react');
-let data = require('../data/predic.json');
+let data = require('../data/predictionlr.json');
 
-export default function Prediction(Props) {
+export default function PredictionLR(Props) {
 
   const options = {
     title: {
@@ -61,7 +61,7 @@ export default function Prediction(Props) {
     </div>
   </>
 }
-Prediction.getLayout = (prediction) => (
+PredictionLR.getLayout = (prediction) => (
   <MyLayout number='4'>
     {prediction}
   </MyLayout>

@@ -6,16 +6,16 @@ let volumn = require('../data/crypto_volumn.json');
 
 const getData = (object) => {
     const data = [];
-    data.push(object.ada_volume);
-    data.push(object.avax_volume);
-    data.push(object.bnb_volume);
-    data.push(object.btc_volume);
-    data.push(object.eth_volume);
-    data.push(object.luna_volume);
-    data.push(object.sol_volume);
-    data.push(object.usdc_volume);
-    data.push(object.usdt_volume);
-    data.push(object.xrp_volume);
+    data.push(object.ada_volume / 1000000);
+    data.push(object.avax_volume / 1000000);
+    data.push(object.bnb_volume / 1000000);
+    data.push(object.btc_volume / 1000000);
+    data.push(object.eth_volume / 1000000);
+    data.push(object.luna_volume / 1000000);
+    data.push(object.sol_volume / 1000000);
+    data.push(object.usdc_volume / 1000000);
+    data.push(object.usdt_volume / 1000000);
+    data.push(object.xrp_volume / 1000000);
     return data;
 }
 
@@ -35,7 +35,7 @@ export default function Race(Props) {
             max: 'dataMax',
             axisLabel: {
                 formatter: function (n) {
-                    return Math.round(n) + '';
+                    return Math.round(n) + ' millions';
                 }
             }
         },

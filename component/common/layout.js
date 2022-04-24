@@ -12,7 +12,7 @@ export default function MyLayout({ number, children }) {
                 <Menu theme="dark" mode="horizontal" defaultSelectedKeys={[number]}>
                     <Menu.Item key="1">
                         <Link href="/">
-                            <a>Home</a>
+                            <a>Crypto and Covid Tweet Sentiments</a>
                         </Link>
                     </Menu.Item>
                     <Menu.Item key="2">
@@ -25,12 +25,17 @@ export default function MyLayout({ number, children }) {
                             <a>Crypto Price Race Graph</a>
                         </Link>
                     </Menu.Item>
+                    <Menu.Item key="4">
+                        <Link href="/prediction">
+                            <a>Price Prediction vs Actual (BTC) </a>
+                        </Link>
+                    </Menu.Item>
                 </Menu>
             </Header>
             <Content style={{ padding: '0 50px' }}>
                 <div className="site-layout-content">{children}</div>
             </Content>
-            <Footer style={{ textAlign: 'center' }}>CS4225 project ©2022 Created by TeamXX</Footer>
+            <Footer style={{ textAlign: 'center' }}>CS4225 project ©2022 </Footer>
         </Layout>
     )
 }

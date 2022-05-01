@@ -1,68 +1,45 @@
 import MyLayout from '../component/common/layout'
-import ReactECharts from 'echarts-for-react';
+import PredictGraph from '../component/predictGraph'
+let avax_data = require('../data/predict_avax.json');
+let ada_data = require('../data/predict_ada.json');
+let bnb_data = require('../data/predict_bnb.json');
+let btc_data = require('../data/predict_btc.json');
+let eth_data = require('../data/predict_eth.json');
+let luna_data = require('../data/predict_luna.json');
+let sol_data = require('../data/predict_sol.json');
+let usdc_data = require('../data/predict_usdc.json');
+let usdt_data = require('../data/predict_usdt.json');
+let xrp_data = require('../data/predict_xrp.json');
 
-// let MyLayout = require('../component/common/layout');
-// let ReactECharts = require('echarts-for-react');
-let data = require('../data/dualpredict.json');
+export default function Prediction(Props) {
 
-export default function PredictionLR(Props) {
-
-  const options = {
-    title: {
-      text: 'Price Prediction vs Actual (BTC)'
-    },
-    tooltip: {
-      trigger: 'axis'
-    },
-    legend: {
-      data: ['Prediction', 'Actual']
-    },
-    grid: {
-      left: '3%',
-      right: '4%',
-      bottom: '3%',
-      containLabel: true
-    },
-    toolbox: {
-      feature: {
-        saveAsImage: {}
-      }
-    },
-    xAxis: {
-      type: 'category',
-      boundaryGap: false,
-      data: data.Date
-    },
-    yAxis: {
-      scale: true,
-      type: 'value',
-      name: 'Price',
-      axisLabel: {
-        formatter: '{value} USD'
-      }
-    },
-    series: [
-      {
-        name: 'Prediction',
-        type: 'line',
-        data: data.Pred
-      },
-      {
-        name: 'Actual',
-        type: 'line',
-        data: data.Actual
-      }
-    ]
-  };
 
   return <>
-    <div style={{ height: "800px" }}>
+    <div>
+      <PredictGraph data={avax_data} title="AVAX - Price Prediction vs Actual" />
       <br />
-      <ReactECharts option={options} style={{ height: "600px" }} />
+      <PredictGraph data={ada_data} title="ADA - Price Prediction vs Actual" />
+      <br />
+      <PredictGraph data={bnb_data} title="BNB - Price Prediction vs Actual" />
+      <br />
+      <PredictGraph data={btc_data} title="BTC - Price Prediction vs Actual" />
+      <br />
+      <PredictGraph data={eth_data} title="ETH - Price Prediction vs Actual" />
+      <br />
+      <PredictGraph data={luna_data} title="LUNA - Price Prediction vs Actual" />
+      <br />
+      <PredictGraph data={sol_data} title="SOL - Price Prediction vs Actual" />
+      <br />
+      <PredictGraph data={usdc_data} title="USDC - Price Prediction vs Actual" />
+      <br />
+      <PredictGraph data={usdt_data} title="USDT - Price Prediction vs Actual" />
+      <br />
+      <PredictGraph data={xrp_data} title="XRP - Price Prediction vs Actual" />
+      <br />
     </div>
   </>
 }
-PredictionLR.getLayout = (prediction) => (
+Prediction.getLayout = (prediction) => (
   <MyLayout number='4'>
     {prediction}
   </MyLayout>

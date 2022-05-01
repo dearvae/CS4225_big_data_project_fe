@@ -27,7 +27,7 @@ export default function MyLayout({ number, children }) {
                     </Menu.Item>
                     <Menu.Item key="4">
                         <Link href="/prediction">
-                            <a>Price Prediction vs Actual (BTC) </a>
+                            <a>Weighted Price Prediction vs Actual</a>
                         </Link>
                     </Menu.Item>
                 </Menu>

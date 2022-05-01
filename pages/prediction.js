@@ -16,26 +16,21 @@ export default function Prediction(Props) {
 
   return <>
     <div>
+      <br />
+      <br />
+      <br />
+      <br />
       <PredictGraph data={avax_data} title="AVAX - Price Prediction vs Actual" />
-      <br />
       <PredictGraph data={ada_data} title="ADA - Price Prediction vs Actual" />
-      <br />
       <PredictGraph data={bnb_data} title="BNB - Price Prediction vs Actual" />
-      <br />
       <PredictGraph data={btc_data} title="BTC - Price Prediction vs Actual" />
-      <br />
       <PredictGraph data={eth_data} title="ETH - Price Prediction vs Actual" />
-      <br />
       <PredictGraph data={luna_data} title="LUNA - Price Prediction vs Actual" />
-      <br />
       <PredictGraph data={sol_data} title="SOL - Price Prediction vs Actual" />
-      <br />
       <PredictGraph data={usdc_data} title="USDC - Price Prediction vs Actual" />
-      <br />
       <PredictGraph data={usdt_data} title="USDT - Price Prediction vs Actual" />
-      <br />
       <PredictGraph data={xrp_data} title="XRP - Price Prediction vs Actual" />
-      <br />
+
     </div>
   </>
 }

@@ -54,7 +54,6 @@ export default function PredictGraph(Props) {
 
     return <>
         <div style={{ height: "800px" }}>
-            <br />
             <ReactECharts option={options} style={{ height: "600px" }} />
         </div>
     </>
